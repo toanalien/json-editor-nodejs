@@ -1,35 +1,27 @@
 {
-  "name": "OpenShift-Sample-App",
+  "name": "json-editor-nodejs",
   "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "description": "json editor nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [
-    "OpenShift",
-    "Node.js",
-    "application",
-    "openshift"
+    "json",
+    "json",
+    "editor",
+    "nodejs"
   ],
-  "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+  "author": "toanalien",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "path": "^0.11.14"
   },
-  "homepage": "http://www.openshift.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/openshift/origin-server"
-  },
-
   "engines": {
     "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
   },
-
-  "dependencies": {
-    "express": "~3.4.4"
-  },
-  "devDependencies": {},
-  "bundleDependencies": [],
-
-  "private": true,
-  "main": "server.js"
+  "main":"server.js"
 }
