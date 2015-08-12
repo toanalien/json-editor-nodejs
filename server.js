@@ -19,7 +19,7 @@ http.createServer(function(req, res) {
 					return;
 				}
 				var headers = {
-					'Content-type': mimeTypes[path.extname(lookup)]
+					'Content-Type': mimeTypes[path.extname(lookup)]
 				};
 				res.writeHead(200, headers);
 				res.end(data);
